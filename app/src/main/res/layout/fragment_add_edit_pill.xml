@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="viewModel"
+            type="com.example.mypillreminder.features.addeditpill.AddEditPillViewModel" />
+
+    </data>
+
+    <ScrollView
+        android:id="@+id/edtPillName"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="500dp">
+
+            <EditText
+                android:id="@+id/reminder_title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:ellipsize="end"
+                android:hint="نام دارو"
+                android:textStyle="bold"
+                android:inputType="textCapSentences"
+                android:maxLines="1"
+                android:text="@={viewModel._titleEditText}"
+                android:textAppearance="?attr/textAppearanceHeadline5"
+                android:fontFamily="@font/skoodakbd"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="ژلوفن" />
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/holderInterval"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/reminder_title">
+
+                <TextView
+                    android:id="@+id/reminder_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="فاصله هر نوبت (ساعت)"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/skoodakbd"
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+                <me.himanshusoni.quantityview.QuantityView
+                    android:id="@+id/quantityViewInterval"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/skoodakbd"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/reminder_text"
+                    app:layout_constraintHorizontal_bias="0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:qv_addButtonBackground="@color/purple_700"
+                    app:qv_addButtonText="+"
+                    app:qv_addButtonTextColor="@color/white"
+                    app:qv_maxQuantity="23"
+                    app:qv_minQuantity="1"
+                    app:qv_quantityBackground="@color/white"
+                    app:qv_quantityDialog="true"
+                    app:qv_quantityPadding="35dp"
+                    app:qv_quantityTextColor="@color/black"
+                    app:qv_removeButtonBackground="@color/purple_700"
+                    app:qv_removeButtonText="-"
+                    app:qv_removeButtonTextColor="@color/white" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/holderReminder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/holderInterval">
+
+                <TextView
+                    android:id="@+id/interval_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="یادآور"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/skoodakbd"
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+                <com.google.android.material.switchmaterial.SwitchMaterial
+                    android:id="@+id/switchReminder"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="@={viewModel._switchReminder}"
+                    android:textColor="@android:color/secondary_text_light"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/interval_text"
+                    app:layout_constraintHorizontal_bias="0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/holderImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/holderReminder">
+
+                <TextView
+                    android:id="@+id/image_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="عکس"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/skoodakbd"
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/upload_profile_picture_image_view"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:cropToPadding="false"
+                    android:onClick="@{() -> viewModel.onSelectImageClicked()}"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/image_text"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0"
+                    android:src="@drawable/ic_image_add"
+                    app:PillImage="@{viewModel.imagePath}"
+                     />
+
+                <TextView
+                    android:id="@+id/remove_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:text="حذف"
+                    android:textStyle="bold"
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/upload_profile_picture_image_view"
+                    app:layout_constraintStart_toStartOf="@+id/upload_profile_picture_image_view"
+                    app:layout_constraintTop_toBottomOf="@+id/upload_profile_picture_image_view"
+                    android:onClick="@{() -> viewModel.onImageDeleteClicked()}"
+
+                    />
+<!--                    />-->
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            <Button
+                android:id="@+id/btnCancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="@{() -> viewModel.onCancelClicked()}"
+                android:text="لغو"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/btnSave"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/holderImage" />
+
+            <Button
+                android:id="@+id/btnSave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="@{() -> viewModel.onSaveClicked()}"
+                android:text="ذخیره"
+                app:layout_constraintBottom_toBottomOf="@+id/btnCancel"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/btnCancel"
+                app:layout_constraintTop_toTopOf="@+id/btnCancel" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+
+</layout>
+
+
+    <!--<androidx.constraintlayout.widget.ConstraintLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content">-->
+
+
+    <!--<TextView-->
+    <!--    android:id="@+id/txtStartTime"-->
+    <!--    android:layout_width="0dp"-->
+    <!--    android:layout_height="wrap_content"-->
+    <!--    android:layout_marginStart="30dp"-->
+    <!--    android:layout_marginTop="50dp"-->
+    <!--    android:layout_marginEnd="30dp"-->
+    <!--    android:text="Start Date"-->
+    <!--    app:layout_constraintEnd_toEndOf="parent"-->
+    <!--    app:layout_constraintHorizontal_bias="0.0"-->
+    <!--    app:layout_constraintStart_toStartOf="parent"-->
+    <!--    app:layout_constraintTop_toBottomOf="@+id/quantityViewInterval" />-->
+
+    <!--<TextView-->
+    <!--    android:id="@+id/txtPillName"-->
+    <!--    android:layout_width="0dp"-->
+    <!--    android:layout_height="wrap_content"-->
+    <!--    android:layout_marginStart="30dp"-->
+    <!--    android:layout_marginTop="16dp"-->
+    <!--    android:layout_marginEnd="30dp"-->
+    <!--    android:text="Name"-->
+    <!--    app:layout_constraintEnd_toEndOf="parent"-->
+    <!--    app:layout_constraintHorizontal_bias="0"-->
+    <!--    app:layout_constraintStart_toStartOf="parent"-->
+    <!--    app:layout_constraintTop_toTopOf="parent" />-->
+
+    <!--<EditText-->
+    <!--    android:id="@+id/editTextTextPersonName"-->
+    <!--    style="@style/Widget.AppCompat.AutoCompleteTextView"-->
+    <!--    android:layout_width="0dp"-->
+    <!--    android:layout_height="wrap_content"-->
+    <!--    android:layout_marginStart="30dp"-->
+    <!--    android:layout_marginTop="10dp"-->
+    <!--    android:layout_marginEnd="30dp"-->
+    <!--    android:inputType="textPersonName"-->
+
+    <!--    android:text="@={viewModel._titleEditText}"-->
+    <!--    app:layout_constraintEnd_toEndOf="parent"-->
+    <!--    app:layout_constraintStart_toStartOf="parent"-->
+    <!--    app:layout_constraintTop_toBottomOf="@+id/txtPillName" />-->
+
+
+    <!--<TextView-->
+    <!--    android:id="@+id/txtInterval"-->
+    <!--    android:layout_width="0dp"-->
+    <!--    android:layout_height="wrap_content"-->
+    <!--    android:layout_marginStart="30dp"-->
+    <!--    android:layout_marginTop="50dp"-->
+    <!--    android:layout_marginEnd="30dp"-->
+    <!--    android:text="Interval"-->
+    <!--    app:layout_constraintEnd_toEndOf="parent"-->
+    <!--    app:layout_constraintStart_toStartOf="parent"-->
+    <!--    app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />-->
+
+
+    <!--<me.himanshusoni.quantityview.QuantityView-->
+    <!--    android:id="@+id/quantityViewInterval"-->
+    <!--    android:layout_width="wrap_content"-->
+    <!--    android:layout_height="0dp"-->
+    <!--    android:layout_marginStart="30dp"-->
+    <!--    android:layout_marginTop="10dp"-->
+    <!--    app:layout_constraintStart_toStartOf="parent"-->
+    <!--    app:layout_constraintTop_toBottomOf="@+id/txtInterval"-->
+    <!--    app:qv_addButtonBackground="@color/purple_700"-->
+    <!--    app:qv_addButtonText="+"-->
+    <!--    app:qv_addButtonTextColor="@color/white"-->
+    <!--    app:qv_maxQuantity="23"-->
+    <!--    app:qv_minQuantity="1"-->
+    <!--    app:qv_quantityBackground="@color/white"-->
+    <!--    app:qv_quantityDialog="true"-->
+    <!--    app:qv_quantityPadding="50dp"-->
+    <!--    app:qv_quantityTextColor="@color/black"-->
+    <!--    app:qv_removeButtonBackground="@color/purple_700"-->
+    <!--    app:qv_removeButtonText="-"-->
+    <!--    app:qv_removeButtonTextColor="@color/white"-->
+
+    <!--    />-->
+
+    <!--<TextView-->
+    <!--    android:id="@+id/txtInterval2"-->
+    <!--    android:layout_width="wrap_content"-->
+    <!--    android:layout_height="wrap_content"-->
+    <!--    android:layout_marginEnd="30dp"-->
+    <!--    android:gravity="right"-->
+    <!--    android:text=" / Day"-->
+    <!--    android:textColor="#000000"-->
+    <!--    app:layout_constraintBottom_toBottomOf="@+id/quantityViewInterval"-->
+    <!--    app:layout_constraintEnd_toEndOf="parent"-->
+    <!--    app:layout_constraintHorizontal_bias="0.08"-->
+    <!--    app:layout_constraintStart_toEndOf="@+id/quantityViewInterval"-->
+    <!--    app:layout_constraintTop_toTopOf="@+id/quantityViewInterval" />-->
+
+
+    <!--<TextView-->
+    <!--    android:id="@+id/txtSelectedStartTime"-->
+    <!--    android:layout_width="200dp"-->
+    <!--    android:layout_height="0dp"-->
+    <!--    android:layout_marginStart="30dp"-->
+    <!--    android:gravity="start|center_vertical"-->
+    <!--    android:paddingTop="8dp"-->
+    <!--    android:paddingBottom="8dp"-->
+    <!--    android:text="@{ viewModel._startDateFormatted }"-->
+    <!--    android:textColor="#000000"-->
+    <!--    app:layout_constraintBottom_toBottomOf="@+id/btnSetStartTime"-->
+    <!--    app:layout_constraintStart_toStartOf="parent"-->
+    <!--    app:layout_constraintTop_toTopOf="@+id/btnSetStartTime" />-->
+
+    <!--<ImageButton-->
+    <!--    android:id="@+id/btnSetStartTime"-->
+    <!--    android:layout_width="wrap_content"-->
+    <!--    android:layout_height="wrap_content"-->
+    <!--    android:background="@color/purple_700"-->
+    <!--    android:onClick="@{() -> viewModel.onChooseDateClicked()}"-->
+    <!--    app:layout_constraintEnd_toEndOf="parent"-->
+    <!--    app:layout_constraintHorizontal_bias="0.068"-->
+    <!--    app:layout_constraintStart_toEndOf="@+id/txtSelectedStartTime"-->
+    <!--    app:layout_constraintTop_toBottomOf="@+id/txtStartTime"-->
+    <!--    app:srcCompat="@android:drawable/ic_menu_my_calendar" />-->
+
+
+    <!--<com.google.android.material.switchmaterial.SwitchMaterial-->
+    <!--    android:id="@+id/switchReminder"-->
+    <!--    android:layout_width="0dp"-->
+    <!--    android:layout_height="wrap_content"-->
+    <!--    android:layout_marginStart="30dp"-->
+    <!--    android:layout_marginTop="50dp"-->
+    <!--    android:layout_marginEnd="30dp"-->
+    <!--    android:checked="@={viewModel._switchReminder}"-->
+    <!--    android:text="Reminder"-->
+    <!--    android:textColor="@android:color/secondary_text_light"-->
+    <!--    app:layout_constraintEnd_toEndOf="parent"-->
+    <!--    app:layout_constraintHorizontal_bias="0.0"-->
+    <!--    app:layout_constraintStart_toStartOf="parent"-->
+    <!--    app:layout_constraintTop_toBottomOf="@+id/btnSetStartTime" />-->
+
+
+    <!--<TextView-->
+    <!--    android:id="@+id/txtImage"-->
+    <!--    android:layout_width="match_parent"-->
+    <!--    android:layout_height="wrap_content"-->
+    <!--    android:layout_marginStart="30dp"-->
+    <!--    android:layout_marginTop="50dp"-->
+    <!--    android:layout_marginEnd="30dp"-->
+    <!--    android:text="Pill Image"-->
+    <!--    app:layout_constraintEnd_toEndOf="parent"-->
+    <!--    app:layout_constraintTop_toBottomOf="@+id/switchReminder" />-->
+
+
+    <!--<de.hdodenhof.circleimageview.CircleImageView-->
+    <!--    android:id="@+id/upload_profile_picture_image_view"-->
+    <!--    android:layout_width="151dp"-->
+    <!--    android:layout_height="139dp"-->
+    <!--    android:adjustViewBounds="false"-->
+    <!--    android:cropToPadding="false"-->
+    <!--    android:onClick="@{() -> viewModel.onSelectImageClicked()}"-->
+    <!--    app:srcCompat="@drawable/ic_pill"-->
+    <!--    app:layout_constraintEnd_toEndOf="parent"-->
+    <!--    app:layout_constraintStart_toStartOf="parent"-->
+    <!--    app:layout_constraintTop_toBottomOf="@+id/txtImage"-->
+    <!--    app:profilePictureUrl="@{viewModel.imagePath}" />-->
+
+    <!--<Button-->
+    <!--    android:id="@+id/btnCancel"-->
+    <!--    android:layout_width="wrap_content"-->
+    <!--    android:layout_height="wrap_content"-->
+    <!--    android:onClick="@{() -> viewModel.onCancelClicked()}"-->
+    <!--    android:text="Cancel"-->
+    <!--    app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--    app:layout_constraintEnd_toStartOf="@+id/btnSave"-->
+    <!--    app:layout_constraintHorizontal_bias="0.5"-->
+    <!--    app:layout_constraintStart_toStartOf="parent"-->
+    <!--    app:layout_constraintTop_toBottomOf="@+id/upload_profile_picture_image_view" />-->
+
+    <!--<Button-->
+    <!--    android:id="@+id/btnSave"-->
+    <!--    android:layout_width="wrap_content"-->
+    <!--    android:layout_height="wrap_content"-->
+    <!--    android:onClick="@{() -> viewModel.onSaveClicked()}"-->
+    <!--    android:text="Save"-->
+    <!--    app:layout_constraintBottom_toBottomOf="@+id/btnCancel"-->
+    <!--    app:layout_constraintEnd_toEndOf="parent"-->
+    <!--    app:layout_constraintHorizontal_bias="0.5"-->
+    <!--    app:layout_constraintStart_toEndOf="@+id/btnCancel"-->
+    <!--    app:layout_constraintTop_toTopOf="@+id/btnCancel" />-->
+
+
+    <!--</androidx.constraintlayout.widget.ConstraintLayout>-->
+

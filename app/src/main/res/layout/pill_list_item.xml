@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="RtlCompat">
+
+    <data>
+
+        <variable
+            name="pill"
+            type="com.example.mypillreminder.service.model.Pill" />
+
+        <variable
+            name="viewHolder"
+            type="com.example.mypillreminder.view.adapter.PillAdapter.PillViewHolder" />
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:orientation="horizontal"
+        app:cardUseCompatPadding="true">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layoutDirection="ltr">
+
+
+            <ImageView
+                android:id="@+id/imgPoster"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:adjustViewBounds="false"
+                android:cropToPadding="false"
+                android:src="@drawable/pill"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:LoadListItemImage="@{pill.pillImage}" />
+
+            <TextView
+
+                android:id="@+id/txtTitle"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:gravity="center"
+                android:text="@{pill.pillName}"
+                android:textAlignment="viewEnd"
+                android:textColor="@android:color/black"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/skoodakbd"
+                app:layout_constraintBottom_toBottomOf="@+id/imgPoster"
+                app:layout_constraintEnd_toStartOf="@+id/imgPoster"
+                app:layout_constraintStart_toEndOf="@+id/textViewOptions"
+                app:layout_constraintTop_toTopOf="@+id/imgPoster"
+                tools:text="پنی سیلین" />
+
+
+            <ImageView
+                android:id="@+id/textViewOptions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="8dp"
+                android:src="@drawable/ic_edit"
+                android:textAppearance="?android:textAppearanceLarge"
+                app:layout_constraintBottom_toBottomOf="@+id/txtTitle"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/txtTitle"
+                app:layout_constraintVertical_bias="0"
+                android:onClick="@{() ->  viewHolder.pillClickCallback.onEditClicked(pill)}"
+                />
+
+            <TextView
+                android:id="@+id/txtInterval"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:gravity="center"
+                android:paddingTop="8dp"
+                android:text="@{@string/pill_Interval(pill.interval)}"
+                android:textAlignment="viewEnd"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/skoodakbd"
+                app:layout_constraintEnd_toStartOf="@+id/pillAlarm"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imgPoster"
+                tools:text="هر 8 ساعت" />
+
+<!--            <ImageView-->
+<!--                android:id="@+id/imageView"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:adjustViewBounds="true"-->
+<!--                android:maxWidth="42dp"-->
+<!--                android:maxHeight="42dp"-->
+<!--                android:scaleType="fitCenter"-->
+<!--                android:layout_marginLeft="8dp"-->
+<!--                app:layout_constraintBottom_toBottomOf="@+id/txtInterval"-->
+<!--                app:layout_constraintEnd_toStartOf="@+id/txtInterval"-->
+<!--                app:layout_constraintHorizontal_bias="1.0"-->
+<!--                app:layout_constraintHorizontal_chainStyle="packed"-->
+<!--                app:layout_constraintStart_toStartOf="parent"-->
+<!--                app:layout_constraintTop_toTopOf="@+id/txtInterval"-->
+<!--                app:srcCompat="@drawable/alarm_on" />-->
+
+
+<!--            <com.google.android.material.checkbox.MaterialCheckBox-->
+            <ImageView
+                android:id="@+id/pillAlarm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:adjustViewBounds="true"
+                android:maxWidth="42dp"
+                android:maxHeight="42dp"
+                android:scaleType="fitCenter"
+                app:displayHasReminder="@{pill.hasReminder}"
+                app:layout_constraintBottom_toBottomOf="@+id/txtInterval"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/txtInterval"
+                android:src="@drawable/ic_notifications" />
+
+            <TextView
+                android:id="@+id/txtLastTaken"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:paddingTop="6dp"
+                android:text="@{@string/pill_lastTaken_date(pill.lastTakenFormatted())}"
+                android:textAlignment="viewEnd"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/skoodakbd"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtInterval"
+                tools:text="آخرین مصرف : 12:30 99/01/01" />
+
+            <TextView
+                android:id="@+id/txtNextDose"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:paddingTop="6dp"
+                android:text="@{@string/pill_nextDose_date(pill.nextDoseFormatted())}"
+                android:textAlignment="viewEnd"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/skoodakbd"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtLastTaken"
+                tools:text="نوبت بعدی : 12:30 99/01/01" />
+
+            <Button
+                android:id="@+id/btnSkip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="@{() ->  viewHolder.pillClickCallback.onSkipClick(pill)}"
+                android:text="رد نوبت"
+                app:backgroundTint="@color/pink_1"
+                app:layout_constraintBottom_toBottomOf="@+id/btnTake"
+                app:layout_constraintEnd_toStartOf="@+id/btnTake"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/btnAlreadyTaken"
+                app:layout_constraintTop_toTopOf="@+id/btnTake" />
+
+            <Button
+                android:id="@+id/btnAlreadyTaken"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="@{() ->  viewHolder.pillClickCallback.onAlreadyTakenClick(pill)}"
+                android:text="ثبت نوبت قبلی"
+                app:backgroundTint="@color/yellow_1"
+                app:layout_constraintBottom_toBottomOf="@+id/btnSkip"
+                app:layout_constraintEnd_toStartOf="@+id/btnSkip"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintHorizontal_chainStyle="spread"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/btnSkip" />
+
+            <Button
+                android:id="@+id/btnTake"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:layout_marginBottom="8dp"
+                android:onClick="@{() ->  viewHolder.pillClickCallback.onTakeClick(pill)}"
+                android:text="مصرف"
+                app:backgroundTint="@color/green_1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/btnSkip"
+                app:layout_constraintTop_toBottomOf="@+id/txtNextDose" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</layout>
+
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+
+<!--<layout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools">-->
+
+<!--    <data>-->
+<!--        <variable-->
+<!--            name="pill"-->
+<!--            type="com.example.mypillreminder.service.model.Pill" />-->
+
+<!--        <variable-->
+<!--            name="viewHolder"-->
+<!--            type="com.example.mypillreminder.view.adapter.PillAdapter.PillViewHolder" />-->
+<!--    </data>-->
+
+<!--    <androidx.cardview.widget.CardView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginBottom="6dp"-->
+<!--        android:onClick="@{() ->  viewHolder.pillClickCallback.onCardClick(pill)}"-->
+<!--        android:orientation="horizontal"-->
+<!--        app:cardUseCompatPadding="true">-->
+
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:orientation="vertical">-->
+
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="horizontal">-->
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/imgPoster"-->
+<!--                    android:layout_width="60dp"-->
+<!--                    android:layout_height="60dp"-->
+<!--                    android:adjustViewBounds="false"-->
+<!--                    android:cropToPadding="false"-->
+<!--                    android:src="@mipmap/aaa"-->
+<!--                    app:layout_constraintEnd_toEndOf="parent"-->
+<!--                    app:layout_constraintStart_toStartOf="parent"-->
+<!--                    app:layout_constraintTop_toBottomOf="@+id/txtImage"-->
+<!--                    app:profilePictureUrl="@{pill.pillImage}" />-->
+
+<!--&lt;!&ndash;                <ImageView&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:id="@+id/imgPoster"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_width="40dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_height="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:scaleType="centerCrop"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:src="@mipmap/aaa" />&ndash;&gt;-->
+<!--                &lt;!&ndash;                    app:image_url="@{pill.setPillImage()}" />&ndash;&gt;-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/txtTitle"-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_gravity="left"-->
+<!--                    android:layout_weight="4"-->
+<!--                    android:padding="6dp"-->
+<!--                    android:text="@{pill.pillName}"-->
+<!--                    android:textColor="@android:color/black"-->
+<!--                    android:textStyle="bold"-->
+<!--                    tools:text="penysisiln" />-->
+
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/imgDelete"-->
+<!--                    android:layout_width="40dp"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:src="@drawable/ic_delete"-->
+<!--                    android:onClick="@{() ->  viewHolder.pillClickCallback.onDeleteClicked(pill)}"-->
+<!--                    />-->
+
+<!--            </LinearLayout>-->
+
+
+<!--            <TextView-->
+<!--                android:id="@+id/txtStartTime"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:padding="6dp"-->
+<!--                android:text="@{@string/pill_start_date(pill.startTimeFormatted())}"-->
+<!--                android:textColor="@android:color/black"-->
+<!--                android:textStyle="bold"-->
+<!--                tools:text="Last Taken : Wed  25" />-->
+
+
+<!--            <TextView-->
+<!--                android:id="@+id/txtEndTime"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:padding="6dp"-->
+<!--                android:text="@{@string/pill_end_date(pill.endTimeFormatted())}"-->
+<!--                android:textColor="@android:color/black"-->
+<!--                android:textStyle="bold"-->
+<!--                tools:text="Last Taken : Wed  30" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/txtLastTaken"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:padding="6dp"-->
+<!--                android:text="@{@string/pill_lastTaken_date(pill.lastTakenFormatted())}"-->
+<!--                android:textColor="@android:color/black"-->
+<!--                android:textStyle="bold"-->
+<!--                tools:text="Last Taken : Wed  30" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/txtNextDose"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:padding="6dp"-->
+<!--                android:text="@{@string/pill_nextDose_date(pill.nextDoseFormatted())}"-->
+<!--                android:textColor="@android:color/black"-->
+<!--                android:textStyle="bold"-->
+<!--                tools:text="Last Taken : Wed  30" />-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="horizontal">-->
+
+<!--                <Button-->
+<!--                    android:id="@+id/btnTake"-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_margin="6dp"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:onClick="@{() ->  viewHolder.pillClickCallback.onTakeClick(pill)}"-->
+<!--                    android:text="Take" />-->
+
+<!--                <Button-->
+<!--                    android:id="@+id/btnAlreadyTaken"-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_margin="6dp"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:onClick="@{() ->  viewHolder.pillClickCallback.onAlreadyTakenClick(pill)}"-->
+<!--                    android:text="Already Take" />-->
+
+<!--                <Button-->
+<!--                    android:id="@+id/btnSkip"-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_margin="6dp"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:onClick="@{() ->  viewHolder.pillClickCallback.onSkipClick(pill)}"-->
+<!--                    android:text="skip" />-->
+
+<!--            </LinearLayout>-->
+
+
+<!--        </LinearLayout>-->
+
+
+<!--        &lt;!&ndash;                &ndash;&gt;-->
+<!--        &lt;!&ndash;            <ImageView&ndash;&gt;-->
+<!--        &lt;!&ndash;                android:id="@+id/imgPoster"&ndash;&gt;-->
+<!--        &lt;!&ndash;                android:layout_width="0dp"&ndash;&gt;-->
+<!--        &lt;!&ndash;                android:layout_weight="1"&ndash;&gt;-->
+<!--        &lt;!&ndash;                android:layout_height="match_parent"&ndash;&gt;-->
+<!--        &lt;!&ndash;                android:scaleType="fitXY"&ndash;&gt;-->
+<!--        &lt;!&ndash;                android:layout_gravity="center"&ndash;&gt;-->
+<!--        &lt;!&ndash;                android:background="@color/design_default_color_error"&ndash;&gt;-->
+<!--        &lt;!&ndash;                app:image_url="@{pill.setPillImage()}" />&ndash;&gt;-->
+
+<!--        &lt;!&ndash;            <LinearLayout&ndash;&gt;-->
+<!--        &lt;!&ndash;                android:layout_width="match_parent"&ndash;&gt;-->
+<!--        &lt;!&ndash;                android:layout_height="wrap_content"&ndash;&gt;-->
+<!--        &lt;!&ndash;                android:padding="5dp"&ndash;&gt;-->
+<!--        &lt;!&ndash;                android:orientation="vertical">&ndash;&gt;-->
+
+<!--        &lt;!&ndash;                <TextView&ndash;&gt;-->
+<!--        &lt;!&ndash;                    android:id="@+id/txtTitle"&ndash;&gt;-->
+<!--        &lt;!&ndash;                    android:layout_width="wrap_content"&ndash;&gt;-->
+<!--        &lt;!&ndash;                    android:layout_height="wrap_content"&ndash;&gt;-->
+<!--        &lt;!&ndash;                    android:textStyle="bold"&ndash;&gt;-->
+<!--        &lt;!&ndash;                    android:textColor="@android:color/black"&ndash;&gt;-->
+<!--        &lt;!&ndash;                    android:text="@{pill.pillName}"&ndash;&gt;-->
+<!--        &lt;!&ndash;                    android:padding="6dp"/>&ndash;&gt;-->
+
+<!--        &lt;!&ndash;                <TextView&ndash;&gt;-->
+<!--        &lt;!&ndash;                    android:id="@+id/txtYear"&ndash;&gt;-->
+<!--        &lt;!&ndash;                    android:layout_width="match_parent"&ndash;&gt;-->
+<!--        &lt;!&ndash;                    android:layout_height="wrap_content"&ndash;&gt;-->
+<!--        &lt;!&ndash;                    android:contentDescription="@string/movie_year"&ndash;&gt;-->
+<!--        &lt;!&ndash;                    android:textSize="@dimen/project_text"&ndash;&gt;-->
+<!--        &lt;!&ndash;                    android:textColor="@color/colorAccent"&ndash;&gt;-->
+<!--        &lt;!&ndash;                    android:text="@{search.year}"&ndash;&gt;-->
+<!--        &lt;!&ndash;                    android:padding="6dp"/>&ndash;&gt;-->
+
+<!--        &lt;!&ndash;                <TextView&ndash;&gt;-->
+<!--        &lt;!&ndash;                    android:id="@+id/txtType"&ndash;&gt;-->
+<!--        &lt;!&ndash;                    android:layout_width="wrap_content"&ndash;&gt;-->
+<!--        &lt;!&ndash;                    android:layout_height="wrap_content"&ndash;&gt;-->
+<!--        &lt;!&ndash;                    android:textColor="@android:color/white"&ndash;&gt;-->
+<!--        &lt;!&ndash;                    android:padding="6dp"&ndash;&gt;-->
+<!--        &lt;!&ndash;                    android:text="@{search.type}"/>&ndash;&gt;-->
+
+
+<!--    </androidx.cardview.widget.CardView>-->
+<!--</layout>-->

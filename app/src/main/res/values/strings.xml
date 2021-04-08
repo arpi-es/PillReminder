@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">یادآور دارو</string>
+    <string name="pill_start_date">تاریخ شروع : %s</string>
+    <string name="pill_end_date">تاریخ پایان : %s</string>
+    <string name="pill_nextDose_date">نوبت بعدی : %s</string>
+    <string name="pill_lastTaken_date">آخرین مصرف : %s</string>
+    <string name="pill_Interval">هر %d ساعت</string>
+    <string name="notif_prefix">"یادآور دارو : "</string>
+    <string name="pill_not_used">"استفاده نشده"</string>
+    <string name="pagetitle_add">"افزودن دارو"</string>
+    <string name="pagetitle_edit">"ویرایش دارو"</string>
+    <string name="reminder_notification_channel_id" translatable="false">reminder_channel</string>
+    <string name="reminder_notification_channel_name" translatable="true">Reminder</string>
+    <string name="reminder_notification_channel_description">User reminder</string>
+</resources>
