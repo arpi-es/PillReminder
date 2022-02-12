@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\AndroidStudioProjects\\MyPillReminder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-is-rIS\\values-is-rIS.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Arpi\\.gradle\\caches\\transforms-2\\files-2.1\\b4194497937e8376b6ec889c8e189944\\jetified-persianmaterialdatetimepicker-1.2.1\\res\\values-is-rIS\\values-is-rIS.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "282,391,500,580,696,812,924,1017,1113,1205,1289",
+                        "endColumns": "108,108,79,115,115,111,92,95,91,83,95",
+                        "endOffsets": "386,495,575,691,807,919,1012,1108,1200,1284,1380"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,214,323,403,519,635,747,840,936,1028,1112",
+                        "endColumns": "108,108,79,115,115,111,92,95,91,83,95",
+                        "endOffsets": "209,318,398,514,630,742,835,931,1023,1107,1203"
+                    }
+                }
+            ]
+        }
+    ]
+}

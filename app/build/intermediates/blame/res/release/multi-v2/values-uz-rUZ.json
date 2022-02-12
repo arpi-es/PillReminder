@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\AndroidStudioProjects\\MyPillReminder\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-uz-rUZ\\values-uz-rUZ.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Arpi\\.gradle\\caches\\transforms-2\\files-2.1\\b4194497937e8376b6ec889c8e189944\\jetified-persianmaterialdatetimepicker-1.2.1\\res\\values-uz-rUZ\\values-uz-rUZ.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "282,387,502,583,695,814,930,1024,1115,1210,1299",
+                        "endColumns": "104,114,80,111,118,115,93,90,94,88,102",
+                        "endOffsets": "382,497,578,690,809,925,1019,1110,1205,1294,1397"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,210,325,406,518,637,753,847,938,1033,1122",
+                        "endColumns": "104,114,80,111,118,115,93,90,94,88,102",
+                        "endOffsets": "205,320,401,513,632,748,842,933,1028,1117,1220"
+                    }
+                }
+            ]
+        }
+    ]
+}

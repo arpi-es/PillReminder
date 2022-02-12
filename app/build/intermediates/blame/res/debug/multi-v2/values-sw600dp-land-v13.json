@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\AndroidStudioProjects\\MyPillReminder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-land-v13\\values-sw600dp-land-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Arpi\\.gradle\\caches\\transforms-2\\files-2.1\\b4194497937e8376b6ec889c8e189944\\jetified-persianmaterialdatetimepicker-1.2.1\\res\\values-sw600dp-land\\values-sw600dp-land.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "237,289,343,405,456,507,561,615,676",
+                        "endColumns": "51,53,61,50,50,53,53,60,51",
+                        "endOffsets": "284,338,400,451,502,556,610,671,723"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,107,161,223,274,325,379,433,494",
+                        "endColumns": "51,53,61,50,50,53,53,60,51",
+                        "endOffsets": "102,156,218,269,320,374,428,489,541"
+                    }
+                }
+            ]
+        }
+    ]
+}

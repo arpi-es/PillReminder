@@ -1,0 +1,379 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml:2:1-47:12
+MERGED from [androidx.databinding:databinding-adapters:4.0.2] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\5584fa10282f9bf0660386de75f6ff8b\databinding-adapters-4.0.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.databinding:databinding-runtime:4.0.2] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\654754bec6d1edb7fe88d6338613b063\databinding-runtime-4.0.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\adf87bbaa4a634d1d3f28654456e6646\multidex-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.3] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\8f83e246954677af81ef42e37d41b56d\navigation-fragment-ktx-2.3.3\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\a1ec5db35cd9835d80dd9431e77e27a1\jetified-fragment-ktx-1.2.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.3] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\9a56a2f0e24e7c7ce05ad3bfdae359a9\navigation-ui-ktx-2.3.3\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.3] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\2185266b80f6ec9c23fbcd3157a6a603\navigation-runtime-ktx-2.3.3\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.3] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\46fd1c01f655f5059b05c709208fd2a4\navigation-common-ktx-2.3.3\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.1.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\4dfb5535101097f232219e26b2c08bb6\jetified-activity-ktx-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.3.2] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\2ca6a87262e7725ba0031979616a99a2\jetified-core-ktx-1.3.2\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\5cacc9d7e5113192426d0cc28bd76bff\jetified-lifecycle-viewmodel-ktx-2.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-ktx:2.2.6] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\1a0d02b21ccdcdb16dca58c77b002f29\jetified-room-ktx-2.2.6\AndroidManifest.xml:17:1-24:12
+MERGED from [org.koin:koin-androidx-viewmodel:2.0.1] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\a9f4f00a4f2bdcf2529e6959f8a5ddbc\jetified-koin-androidx-viewmodel-2.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [org.koin:koin-androidx-scope:2.0.1] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\0f582c6a21c1e2b902aa172be8ff111c\jetified-koin-androidx-scope-2.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [org.koin:koin-android:2.0.1] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\1e0c87c7cebf6dbd9f223c46125bf495\jetified-koin-android-2.0.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\0844b35ec4d7adcaadd1a1cc680506b7\jetified-lifecycle-runtime-ktx-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\299820db1b635ec5a235c75f1ddc9ccc\jetified-lifecycle-livedata-core-ktx-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui:2.3.3] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\eb54a1e9ba263aed1157d44b6ca4734c\navigation-ui-2.3.3\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.3.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\188b837520d2400571fa1527e0ea05d8\material-1.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\d0a1369acd4c9180667503b485cd7290\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
+MERGED from [me.himanshusoni.quantityview:quantity-view:1.2.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\4808db898e4b666d44ffd125935f93f3\jetified-quantity-view-1.2.0\AndroidManifest.xml:2:1-16:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\8e60cbb4a7e8c14518fbbe7fd7a7a40f\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.mohamadamin:persianmaterialdatetimepicker:1.2.1] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\b4194497937e8376b6ec889c8e189944\jetified-persianmaterialdatetimepicker-1.2.1\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\ce9417c415713a71364ff1bc2239d624\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\2ce37ff191224b919e4f183b1ff33422\lifecycle-extensions-2.2.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.room:room-runtime:2.2.6] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\1a53e71c7a546a153ea24975cab7ec0a\room-runtime-2.2.6\AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\84126ced4a4c17167f3741d6e579c774\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.10.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\6f9e80b8ac96763453d5a4c5156f32b0\jetified-glide-4.10.0\AndroidManifest.xml:2:1-12:12
+MERGED from [de.hdodenhof:circleimageview:3.0.1] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\8f1fbd134b9ce41a950d81af761394f4\jetified-circleimageview-3.0.1\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.samanzamani.persiandate:PersianDate:0.8] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\462e95a8d005cd6dc3ff1f9c2ddec7a9\jetified-PersianDate-0.8\AndroidManifest.xml:2:1-14:12
+MERGED from [androidx.databinding:viewbinding:4.0.2] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\12104dc3740f6d1522077c63ce3db674\jetified-viewbinding-4.0.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\03fc71b1fff80c7502efd8e949e8f23b\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\c16e7134c57ceb2d29d4920c689c515f\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\7802fd185599f2b3f7ef50d26ea1c1ee\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\05e9fc52702a5337bd2c74adf3376f94\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\1597d0edc9df3c7d6de7e639b244766a\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\c24bf78049f2486f2af6abd03259fae5\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\4811d458996b64c8bae1ccc9cd26a7bd\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\be9f0af3d729a5477e3c715287375edc\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\8b9784a18e21c3a76baaf8e9fb68a85e\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\1fa6ee1f6c9105c49677120bd2485338\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment:2.3.3] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\d94f39089f15012a5fb190b076aa2109\navigation-fragment-2.3.3\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.2.4] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\f3ce0329773c303042fa1c0186627918\fragment-1.2.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\27556f1c6b7e558cd8c3dc2a3fa12cb4\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\4fc89ed1a4efd681f7d61d69aad0645e\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\239ed2a3f346b38d0eca5598a8e0c931\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\c86767c9dcf249e8e473b7f0d239fe58\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\65f8b231d46e357d08623c27a50d6315\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\10e32569a5122c679746dd7a1448c9a1\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\0f700df75a24d2172f6c2d96632501fa\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.3.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\520e9c6b4dc013ff1dbe550928ca616c\transition-1.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime:2.3.3] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\4d2a9b0a7138f028ebe31146105544ab\navigation-runtime-2.3.3\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\55181ef58f8ab99dabe3afd4f4d11c91\jetified-activity-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.3.3] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\d1d98fda4cab97a880e2cfb935c06227\navigation-common-2.3.3\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.3.2] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\17e0318d045e411a23e72ba7fadcc2c3\core-1.3.2\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\b99d8fceb574288c620adb733f69955f\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:17:1-32:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\cb17de77bd02e7f600aec53e53c687c6\jetified-lifecycle-service-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\7e8e15dc15c825f880509be2fe16b772\lifecycle-runtime-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\06be2ebdb18c3baf5c86618ed17d552e\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\34dc943f0b08c40212afccb093e47960\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\d1e65c30efeaee42476f256669353cad\lifecycle-livedata-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\474b012bfed0c2440a6a1e1153d5b448\jetified-lifecycle-viewmodel-savedstate-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\3201132879b7156e1e94575de21cef8b\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\0838415936f4f8f1e4ff7c0963b46c52\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\818a3a1a1be7d5bd6803789f2293acb1\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\4382196f4223563b890be9ab13e0337d\lifecycle-viewmodel-2.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\1e124e0849277067dbcba57faadbe780\sqlite-framework-2.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.0.1] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\4e563e53e9d60f5f6db79b75928679b8\sqlite-2.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.10.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\870bf46882475ceda566efe2f7433ac6\jetified-gifdecoder-4.10.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\81f9be34272d71d587ee046a787c72bd\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\42032c0ccfdcfcde1df75c715f20124d\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\06710aa9125f299f2c6e4922ceac8602\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\70d6e3a4ee84cf77149766edb7537143\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\2536541a1bc1c0a1536423bdfabca706\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
+INJECTED from D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml:2:1-47:12
+	package
+		ADDED from D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml:3:5-41
+		INJECTED from D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml:2:1-47:12
+		INJECTED from D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml:2:1-47:12
+		INJECTED from D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml:5:5-80
+	android:name
+		ADDED from D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml:5:22-77
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml:9:22-78
+application
+ADDED from D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml:12:5-44:19
+MERGED from [org.koin:koin-androidx-viewmodel:2.0.1] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\a9f4f00a4f2bdcf2529e6959f8a5ddbc\jetified-koin-androidx-viewmodel-2.0.1\AndroidManifest.xml:7:5-20
+MERGED from [org.koin:koin-androidx-viewmodel:2.0.1] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\a9f4f00a4f2bdcf2529e6959f8a5ddbc\jetified-koin-androidx-viewmodel-2.0.1\AndroidManifest.xml:7:5-20
+MERGED from [org.koin:koin-androidx-scope:2.0.1] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\0f582c6a21c1e2b902aa172be8ff111c\jetified-koin-androidx-scope-2.0.1\AndroidManifest.xml:7:5-20
+MERGED from [org.koin:koin-androidx-scope:2.0.1] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\0f582c6a21c1e2b902aa172be8ff111c\jetified-koin-androidx-scope-2.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.material:material:1.3.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\188b837520d2400571fa1527e0ea05d8\material-1.3.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.3.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\188b837520d2400571fa1527e0ea05d8\material-1.3.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\d0a1369acd4c9180667503b485cd7290\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\d0a1369acd4c9180667503b485cd7290\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [me.himanshusoni.quantityview:quantity-view:1.2.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\4808db898e4b666d44ffd125935f93f3\jetified-quantity-view-1.2.0\AndroidManifest.xml:11:5-14:19
+MERGED from [me.himanshusoni.quantityview:quantity-view:1.2.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\4808db898e4b666d44ffd125935f93f3\jetified-quantity-view-1.2.0\AndroidManifest.xml:11:5-14:19
+MERGED from [com.mohamadamin:persianmaterialdatetimepicker:1.2.1] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\b4194497937e8376b6ec889c8e189944\jetified-persianmaterialdatetimepicker-1.2.1\AndroidManifest.xml:28:5-20
+MERGED from [com.mohamadamin:persianmaterialdatetimepicker:1.2.1] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\b4194497937e8376b6ec889c8e189944\jetified-persianmaterialdatetimepicker-1.2.1\AndroidManifest.xml:28:5-20
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\2ce37ff191224b919e4f183b1ff33422\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\2ce37ff191224b919e4f183b1ff33422\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.room:room-runtime:2.2.6] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\1a53e71c7a546a153ea24975cab7ec0a\room-runtime-2.2.6\AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.room:room-runtime:2.2.6] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\1a53e71c7a546a153ea24975cab7ec0a\room-runtime-2.2.6\AndroidManifest.xml:24:5-29:19
+MERGED from [com.github.bumptech.glide:glide:4.10.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\6f9e80b8ac96763453d5a4c5156f32b0\jetified-glide-4.10.0\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.10.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\6f9e80b8ac96763453d5a4c5156f32b0\jetified-glide-4.10.0\AndroidManifest.xml:10:5-20
+MERGED from [de.hdodenhof:circleimageview:3.0.1] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\8f1fbd134b9ce41a950d81af761394f4\jetified-circleimageview-3.0.1\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:3.0.1] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\8f1fbd134b9ce41a950d81af761394f4\jetified-circleimageview-3.0.1\AndroidManifest.xml:9:5-20
+MERGED from [com.github.samanzamani.persiandate:PersianDate:0.8] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\462e95a8d005cd6dc3ff1f9c2ddec7a9\jetified-PersianDate-0.8\AndroidManifest.xml:11:5-12:19
+MERGED from [com.github.samanzamani.persiandate:PersianDate:0.8] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\462e95a8d005cd6dc3ff1f9c2ddec7a9\jetified-PersianDate-0.8\AndroidManifest.xml:11:5-12:19
+MERGED from [androidx.core:core:1.3.2] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\17e0318d045e411a23e72ba7fadcc2c3\core-1.3.2\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.2] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\17e0318d045e411a23e72ba7fadcc2c3\core-1.3.2\AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\b99d8fceb574288c620adb733f69955f\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\b99d8fceb574288c620adb733f69955f\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\06be2ebdb18c3baf5c86618ed17d552e\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\06be2ebdb18c3baf5c86618ed17d552e\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.10.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\870bf46882475ceda566efe2f7433ac6\jetified-gifdecoder-4.10.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.10.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\870bf46882475ceda566efe2f7433ac6\jetified-gifdecoder-4.10.0\AndroidManifest.xml:9:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.2] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\17e0318d045e411a23e72ba7fadcc2c3\core-1.3.2\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml:18:9-35
+	android:label
+		ADDED from D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml:16:9-41
+	android:roundIcon
+		ADDED from D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml:17:9-54
+	android:icon
+		ADDED from D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml:15:9-43
+	android:allowBackup
+		ADDED from D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml:14:9-35
+	android:theme
+		ADDED from D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml:20:9-52
+	android:usesCleartextTraffic
+		ADDED from D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml:19:9-44
+	android:name
+		ADDED from D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml:13:9-28
+activity#com.example.mypillreminder.view.ui.MainActivity
+ADDED from D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml:22:9-28:20
+	android:name
+		ADDED from D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml:23:13-49
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml:24:13-27:29
+action#android.intent.action.MAIN
+ADDED from D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml:25:17-69
+	android:name
+		ADDED from D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml:25:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml:26:17-77
+	android:name
+		ADDED from D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml:26:27-74
+receiver#com.example.mypillreminder.receiver.AlarmReceiver
+ADDED from D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml:30:9-33:40
+	android:enabled
+		ADDED from D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml:32:13-35
+	android:exported
+		ADDED from D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml:33:13-37
+	android:name
+		ADDED from D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml:31:13-51
+receiver#com.example.mypillreminder.receiver.BootReceiver
+ADDED from D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml:34:9-42:20
+	android:enabled
+		ADDED from D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml:37:13-37
+	android:name
+		ADDED from D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml:35:13-50
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+category:name:android.intent.category.DEFAULT
+ADDED from D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml:38:13-41:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml:39:17-79
+	android:name
+		ADDED from D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml:39:25-76
+category#android.intent.category.DEFAULT
+ADDED from D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml:40:17-76
+	android:name
+		ADDED from D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml:40:27-73
+uses-sdk
+INJECTED from D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml
+INJECTED from D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml
+MERGED from [androidx.databinding:databinding-adapters:4.0.2] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\5584fa10282f9bf0660386de75f6ff8b\databinding-adapters-4.0.2\AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-adapters:4.0.2] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\5584fa10282f9bf0660386de75f6ff8b\databinding-adapters-4.0.2\AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-runtime:4.0.2] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\654754bec6d1edb7fe88d6338613b063\databinding-runtime-4.0.2\AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-runtime:4.0.2] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\654754bec6d1edb7fe88d6338613b063\databinding-runtime-4.0.2\AndroidManifest.xml:22:5-44
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\adf87bbaa4a634d1d3f28654456e6646\multidex-2.0.0\AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\adf87bbaa4a634d1d3f28654456e6646\multidex-2.0.0\AndroidManifest.xml:20:5-43
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.3] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\8f83e246954677af81ef42e37d41b56d\navigation-fragment-ktx-2.3.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.3] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\8f83e246954677af81ef42e37d41b56d\navigation-fragment-ktx-2.3.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\a1ec5db35cd9835d80dd9431e77e27a1\jetified-fragment-ktx-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\a1ec5db35cd9835d80dd9431e77e27a1\jetified-fragment-ktx-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.3] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\9a56a2f0e24e7c7ce05ad3bfdae359a9\navigation-ui-ktx-2.3.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.3] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\9a56a2f0e24e7c7ce05ad3bfdae359a9\navigation-ui-ktx-2.3.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.3] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\2185266b80f6ec9c23fbcd3157a6a603\navigation-runtime-ktx-2.3.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.3] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\2185266b80f6ec9c23fbcd3157a6a603\navigation-runtime-ktx-2.3.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.3] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\46fd1c01f655f5059b05c709208fd2a4\navigation-common-ktx-2.3.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.3] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\46fd1c01f655f5059b05c709208fd2a4\navigation-common-ktx-2.3.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\4dfb5535101097f232219e26b2c08bb6\jetified-activity-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\4dfb5535101097f232219e26b2c08bb6\jetified-activity-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.3.2] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\2ca6a87262e7725ba0031979616a99a2\jetified-core-ktx-1.3.2\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.3.2] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\2ca6a87262e7725ba0031979616a99a2\jetified-core-ktx-1.3.2\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\5cacc9d7e5113192426d0cc28bd76bff\jetified-lifecycle-viewmodel-ktx-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\5cacc9d7e5113192426d0cc28bd76bff\jetified-lifecycle-viewmodel-ktx-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-ktx:2.2.6] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\1a0d02b21ccdcdb16dca58c77b002f29\jetified-room-ktx-2.2.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-ktx:2.2.6] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\1a0d02b21ccdcdb16dca58c77b002f29\jetified-room-ktx-2.2.6\AndroidManifest.xml:20:5-22:41
+MERGED from [org.koin:koin-androidx-viewmodel:2.0.1] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\a9f4f00a4f2bdcf2529e6959f8a5ddbc\jetified-koin-androidx-viewmodel-2.0.1\AndroidManifest.xml:5:5-44
+MERGED from [org.koin:koin-androidx-viewmodel:2.0.1] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\a9f4f00a4f2bdcf2529e6959f8a5ddbc\jetified-koin-androidx-viewmodel-2.0.1\AndroidManifest.xml:5:5-44
+MERGED from [org.koin:koin-androidx-scope:2.0.1] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\0f582c6a21c1e2b902aa172be8ff111c\jetified-koin-androidx-scope-2.0.1\AndroidManifest.xml:5:5-44
+MERGED from [org.koin:koin-androidx-scope:2.0.1] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\0f582c6a21c1e2b902aa172be8ff111c\jetified-koin-androidx-scope-2.0.1\AndroidManifest.xml:5:5-44
+MERGED from [org.koin:koin-android:2.0.1] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\1e0c87c7cebf6dbd9f223c46125bf495\jetified-koin-android-2.0.1\AndroidManifest.xml:5:5-44
+MERGED from [org.koin:koin-android:2.0.1] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\1e0c87c7cebf6dbd9f223c46125bf495\jetified-koin-android-2.0.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\0844b35ec4d7adcaadd1a1cc680506b7\jetified-lifecycle-runtime-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\0844b35ec4d7adcaadd1a1cc680506b7\jetified-lifecycle-runtime-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\299820db1b635ec5a235c75f1ddc9ccc\jetified-lifecycle-livedata-core-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\299820db1b635ec5a235c75f1ddc9ccc\jetified-lifecycle-livedata-core-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.3] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\eb54a1e9ba263aed1157d44b6ca4734c\navigation-ui-2.3.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.3] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\eb54a1e9ba263aed1157d44b6ca4734c\navigation-ui-2.3.3\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.3.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\188b837520d2400571fa1527e0ea05d8\material-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.3.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\188b837520d2400571fa1527e0ea05d8\material-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\d0a1369acd4c9180667503b485cd7290\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\d0a1369acd4c9180667503b485cd7290\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [me.himanshusoni.quantityview:quantity-view:1.2.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\4808db898e4b666d44ffd125935f93f3\jetified-quantity-view-1.2.0\AndroidManifest.xml:7:5-9:41
+MERGED from [me.himanshusoni.quantityview:quantity-view:1.2.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\4808db898e4b666d44ffd125935f93f3\jetified-quantity-view-1.2.0\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\8e60cbb4a7e8c14518fbbe7fd7a7a40f\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\8e60cbb4a7e8c14518fbbe7fd7a7a40f\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.mohamadamin:persianmaterialdatetimepicker:1.2.1] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\b4194497937e8376b6ec889c8e189944\jetified-persianmaterialdatetimepicker-1.2.1\AndroidManifest.xml:22:5-24:41
+MERGED from [com.mohamadamin:persianmaterialdatetimepicker:1.2.1] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\b4194497937e8376b6ec889c8e189944\jetified-persianmaterialdatetimepicker-1.2.1\AndroidManifest.xml:22:5-24:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\ce9417c415713a71364ff1bc2239d624\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\ce9417c415713a71364ff1bc2239d624\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\2ce37ff191224b919e4f183b1ff33422\lifecycle-extensions-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\2ce37ff191224b919e4f183b1ff33422\lifecycle-extensions-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.2.6] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\1a53e71c7a546a153ea24975cab7ec0a\room-runtime-2.2.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.2.6] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\1a53e71c7a546a153ea24975cab7ec0a\room-runtime-2.2.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\84126ced4a4c17167f3741d6e579c774\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\84126ced4a4c17167f3741d6e579c774\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.10.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\6f9e80b8ac96763453d5a4c5156f32b0\jetified-glide-4.10.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.10.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\6f9e80b8ac96763453d5a4c5156f32b0\jetified-glide-4.10.0\AndroidManifest.xml:6:5-8:41
+MERGED from [de.hdodenhof:circleimageview:3.0.1] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\8f1fbd134b9ce41a950d81af761394f4\jetified-circleimageview-3.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:3.0.1] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\8f1fbd134b9ce41a950d81af761394f4\jetified-circleimageview-3.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.samanzamani.persiandate:PersianDate:0.8] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\462e95a8d005cd6dc3ff1f9c2ddec7a9\jetified-PersianDate-0.8\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.samanzamani.persiandate:PersianDate:0.8] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\462e95a8d005cd6dc3ff1f9c2ddec7a9\jetified-PersianDate-0.8\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.databinding:viewbinding:4.0.2] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\12104dc3740f6d1522077c63ce3db674\jetified-viewbinding-4.0.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:4.0.2] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\12104dc3740f6d1522077c63ce3db674\jetified-viewbinding-4.0.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\03fc71b1fff80c7502efd8e949e8f23b\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\03fc71b1fff80c7502efd8e949e8f23b\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\c16e7134c57ceb2d29d4920c689c515f\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\c16e7134c57ceb2d29d4920c689c515f\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\7802fd185599f2b3f7ef50d26ea1c1ee\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\7802fd185599f2b3f7ef50d26ea1c1ee\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\05e9fc52702a5337bd2c74adf3376f94\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\05e9fc52702a5337bd2c74adf3376f94\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\1597d0edc9df3c7d6de7e639b244766a\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\1597d0edc9df3c7d6de7e639b244766a\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\c24bf78049f2486f2af6abd03259fae5\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\c24bf78049f2486f2af6abd03259fae5\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\4811d458996b64c8bae1ccc9cd26a7bd\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\4811d458996b64c8bae1ccc9cd26a7bd\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\be9f0af3d729a5477e3c715287375edc\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\be9f0af3d729a5477e3c715287375edc\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\8b9784a18e21c3a76baaf8e9fb68a85e\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\8b9784a18e21c3a76baaf8e9fb68a85e\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\1fa6ee1f6c9105c49677120bd2485338\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\1fa6ee1f6c9105c49677120bd2485338\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.3] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\d94f39089f15012a5fb190b076aa2109\navigation-fragment-2.3.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.3] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\d94f39089f15012a5fb190b076aa2109\navigation-fragment-2.3.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.4] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\f3ce0329773c303042fa1c0186627918\fragment-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.4] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\f3ce0329773c303042fa1c0186627918\fragment-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\27556f1c6b7e558cd8c3dc2a3fa12cb4\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\27556f1c6b7e558cd8c3dc2a3fa12cb4\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\4fc89ed1a4efd681f7d61d69aad0645e\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\4fc89ed1a4efd681f7d61d69aad0645e\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\239ed2a3f346b38d0eca5598a8e0c931\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\239ed2a3f346b38d0eca5598a8e0c931\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\c86767c9dcf249e8e473b7f0d239fe58\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\c86767c9dcf249e8e473b7f0d239fe58\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\65f8b231d46e357d08623c27a50d6315\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\65f8b231d46e357d08623c27a50d6315\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\10e32569a5122c679746dd7a1448c9a1\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\10e32569a5122c679746dd7a1448c9a1\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\0f700df75a24d2172f6c2d96632501fa\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\0f700df75a24d2172f6c2d96632501fa\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\520e9c6b4dc013ff1dbe550928ca616c\transition-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\520e9c6b4dc013ff1dbe550928ca616c\transition-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.3] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\4d2a9b0a7138f028ebe31146105544ab\navigation-runtime-2.3.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.3] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\4d2a9b0a7138f028ebe31146105544ab\navigation-runtime-2.3.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\55181ef58f8ab99dabe3afd4f4d11c91\jetified-activity-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\55181ef58f8ab99dabe3afd4f4d11c91\jetified-activity-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.3] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\d1d98fda4cab97a880e2cfb935c06227\navigation-common-2.3.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.3] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\d1d98fda4cab97a880e2cfb935c06227\navigation-common-2.3.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.2] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\17e0318d045e411a23e72ba7fadcc2c3\core-1.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.2] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\17e0318d045e411a23e72ba7fadcc2c3\core-1.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\b99d8fceb574288c620adb733f69955f\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\b99d8fceb574288c620adb733f69955f\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\cb17de77bd02e7f600aec53e53c687c6\jetified-lifecycle-service-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\cb17de77bd02e7f600aec53e53c687c6\jetified-lifecycle-service-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\7e8e15dc15c825f880509be2fe16b772\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\7e8e15dc15c825f880509be2fe16b772\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\06be2ebdb18c3baf5c86618ed17d552e\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\06be2ebdb18c3baf5c86618ed17d552e\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\34dc943f0b08c40212afccb093e47960\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\34dc943f0b08c40212afccb093e47960\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\d1e65c30efeaee42476f256669353cad\lifecycle-livedata-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\d1e65c30efeaee42476f256669353cad\lifecycle-livedata-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\474b012bfed0c2440a6a1e1153d5b448\jetified-lifecycle-viewmodel-savedstate-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\474b012bfed0c2440a6a1e1153d5b448\jetified-lifecycle-viewmodel-savedstate-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\3201132879b7156e1e94575de21cef8b\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\3201132879b7156e1e94575de21cef8b\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\0838415936f4f8f1e4ff7c0963b46c52\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\0838415936f4f8f1e4ff7c0963b46c52\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\818a3a1a1be7d5bd6803789f2293acb1\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\818a3a1a1be7d5bd6803789f2293acb1\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\4382196f4223563b890be9ab13e0337d\lifecycle-viewmodel-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\4382196f4223563b890be9ab13e0337d\lifecycle-viewmodel-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\1e124e0849277067dbcba57faadbe780\sqlite-framework-2.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\1e124e0849277067dbcba57faadbe780\sqlite-framework-2.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.1] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\4e563e53e9d60f5f6db79b75928679b8\sqlite-2.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.1] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\4e563e53e9d60f5f6db79b75928679b8\sqlite-2.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.10.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\870bf46882475ceda566efe2f7433ac6\jetified-gifdecoder-4.10.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.10.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\870bf46882475ceda566efe2f7433ac6\jetified-gifdecoder-4.10.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\81f9be34272d71d587ee046a787c72bd\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\81f9be34272d71d587ee046a787c72bd\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\42032c0ccfdcfcde1df75c715f20124d\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\42032c0ccfdcfcde1df75c715f20124d\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\06710aa9125f299f2c6e4922ceac8602\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\06710aa9125f299f2c6e4922ceac8602\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\70d6e3a4ee84cf77149766edb7537143\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\70d6e3a4ee84cf77149766edb7537143\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\2536541a1bc1c0a1536423bdfabca706\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\2536541a1bc1c0a1536423bdfabca706\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+INJECTED from D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml
+INJECTED from D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.VIBRATE
+ADDED from [com.mohamadamin:persianmaterialdatetimepicker:1.2.1] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\b4194497937e8376b6ec889c8e189944\jetified-persianmaterialdatetimepicker-1.2.1\AndroidManifest.xml:26:5-66
+	android:name
+		ADDED from [com.mohamadamin:persianmaterialdatetimepicker:1.2.1] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\b4194497937e8376b6ec889c8e189944\jetified-persianmaterialdatetimepicker-1.2.1\AndroidManifest.xml:26:22-63
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.2.6] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\1a53e71c7a546a153ea24975cab7ec0a\room-runtime-2.2.6\AndroidManifest.xml:25:9-28:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.2.6] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\1a53e71c7a546a153ea24975cab7ec0a\room-runtime-2.2.6\AndroidManifest.xml:28:13-37
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.2.6] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\1a53e71c7a546a153ea24975cab7ec0a\room-runtime-2.2.6\AndroidManifest.xml:27:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.2.6] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\1a53e71c7a546a153ea24975cab7ec0a\room-runtime-2.2.6\AndroidManifest.xml:26:13-74
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\b99d8fceb574288c620adb733f69955f\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\b99d8fceb574288c620adb733f69955f\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\b99d8fceb574288c620adb733f69955f\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\b99d8fceb574288c620adb733f69955f\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\b99d8fceb574288c620adb733f69955f\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79

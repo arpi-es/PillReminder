@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\AndroidStudioProjects\\MyPillReminder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-bn-rBD\\values-bn-rBD.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Arpi\\.gradle\\caches\\transforms-2\\files-2.1\\b4194497937e8376b6ec889c8e189944\\jetified-persianmaterialdatetimepicker-1.2.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "282,397,518,607,730,860,985,1085,1181,1279,1372",
+                        "endColumns": "114,120,88,122,129,124,99,95,97,92,99",
+                        "endOffsets": "392,513,602,725,855,980,1080,1176,1274,1367,1467"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,220,341,430,553,683,808,908,1004,1102,1195",
+                        "endColumns": "114,120,88,122,129,124,99,95,97,92,99",
+                        "endOffsets": "215,336,425,548,678,803,903,999,1097,1190,1290"
+                    }
+                }
+            ]
+        }
+    ]
+}
