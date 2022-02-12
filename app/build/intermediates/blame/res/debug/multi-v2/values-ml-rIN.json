@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\AndroidStudioProjects\\MyPillReminder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ml-rIN\\values-ml-rIN.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Arpi\\.gradle\\caches\\transforms-2\\files-2.1\\b4194497937e8376b6ec889c8e189944\\jetified-persianmaterialdatetimepicker-1.2.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "282,395,511,597,728,852,984,1088,1188,1290,1385",
+                        "endColumns": "112,115,85,130,123,131,103,99,101,94,106",
+                        "endOffsets": "390,506,592,723,847,979,1083,1183,1285,1380,1487"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,218,334,420,551,675,807,911,1011,1113,1208",
+                        "endColumns": "112,115,85,130,123,131,103,99,101,94,106",
+                        "endOffsets": "213,329,415,546,670,802,906,1006,1108,1203,1310"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,111 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.pilopilo.pillreminder"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+11-->D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml:5:5-80
+11-->D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml:5:22-77
+12
+13    <!-- Need to receive a broadcast when the system reboots -->
+14    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+14-->D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml:9:5-81
+14-->D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml:9:22-78
+15    <uses-permission android:name="android.permission.VIBRATE" />
+15-->[com.mohamadamin:persianmaterialdatetimepicker:1.2.1] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\b4194497937e8376b6ec889c8e189944\jetified-persianmaterialdatetimepicker-1.2.1\AndroidManifest.xml:26:5-66
+15-->[com.mohamadamin:persianmaterialdatetimepicker:1.2.1] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\b4194497937e8376b6ec889c8e189944\jetified-persianmaterialdatetimepicker-1.2.1\AndroidManifest.xml:26:22-63
+16
+17    <application
+17-->D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml:12:5-44:19
+18        android:name="com.example.mypillreminder.App"
+18-->D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml:13:9-28
+19        android:allowBackup="true"
+19-->D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml:14:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.3.2] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\17e0318d045e411a23e72ba7fadcc2c3\core-1.3.2\AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:icon="@mipmap/ic_launcher"
+22-->D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml:15:9-43
+23        android:label="@string/app_name"
+23-->D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml:16:9-41
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml:17:9-54
+25        android:supportsRtl="true"
+25-->D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml:18:9-35
+26        android:testOnly="true"
+27        android:theme="@style/Theme.MyPillReminder"
+27-->D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml:20:9-52
+28        android:usesCleartextTraffic="true" >
+28-->D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml:19:9-44
+29        <activity android:name="com.example.mypillreminder.view.ui.MainActivity" >
+29-->D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml:22:9-28:20
+29-->D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml:23:13-49
+30            <intent-filter>
+30-->D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml:24:13-27:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml:25:17-69
+31-->D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml:25:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml:26:17-77
+33-->D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml:26:27-74
+34            </intent-filter>
+35        </activity>
+36
+37        <receiver
+37-->D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml:30:9-33:40
+38            android:name="com.example.mypillreminder.receiver.AlarmReceiver"
+38-->D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml:31:13-51
+39            android:enabled="true"
+39-->D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml:32:13-35
+40            android:exported="false" />
+40-->D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml:33:13-37
+41        <receiver
+41-->D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml:34:9-42:20
+42            android:name="com.example.mypillreminder.receiver.BootReceiver"
+42-->D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml:35:13-50
+43            android:enabled="true"
+43-->D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml:36:13-35
+44            android:exported="false" >
+44-->D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml:37:13-37
+45            <intent-filter>
+45-->D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml:38:13-41:29
+46                <action android:name="android.intent.action.BOOT_COMPLETED" />
+46-->D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml:39:17-79
+46-->D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml:39:25-76
+47
+48                <category android:name="android.intent.category.DEFAULT" />
+48-->D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml:40:17-76
+48-->D:\AndroidStudioProjects\MyPillReminder\app\src\main\AndroidManifest.xml:40:27-73
+49            </intent-filter>
+50        </receiver>
+51
+52        <service
+52-->[androidx.room:room-runtime:2.2.6] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\1a53e71c7a546a153ea24975cab7ec0a\room-runtime-2.2.6\AndroidManifest.xml:25:9-28:40
+53            android:name="androidx.room.MultiInstanceInvalidationService"
+53-->[androidx.room:room-runtime:2.2.6] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\1a53e71c7a546a153ea24975cab7ec0a\room-runtime-2.2.6\AndroidManifest.xml:26:13-74
+54            android:directBootAware="true"
+54-->[androidx.room:room-runtime:2.2.6] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\1a53e71c7a546a153ea24975cab7ec0a\room-runtime-2.2.6\AndroidManifest.xml:27:13-43
+55            android:exported="false" />
+55-->[androidx.room:room-runtime:2.2.6] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\1a53e71c7a546a153ea24975cab7ec0a\room-runtime-2.2.6\AndroidManifest.xml:28:13-37
+56
+57        <provider
+57-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\b99d8fceb574288c620adb733f69955f\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+58            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+58-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\b99d8fceb574288c620adb733f69955f\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+59            android:authorities="com.pilopilo.pillreminder.lifecycle-process"
+59-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\b99d8fceb574288c620adb733f69955f\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+60            android:exported="false"
+60-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\b99d8fceb574288c620adb733f69955f\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+61            android:multiprocess="true" />
+61-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Arpi\.gradle\caches\transforms-2\files-2.1\b99d8fceb574288c620adb733f69955f\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+62    </application>
+63
+64</manifest>

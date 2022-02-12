@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\AndroidStudioProjects\\MyPillReminder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-et-rEE\\values-et-rEE.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Arpi\\.gradle\\caches\\transforms-2\\files-2.1\\b4194497937e8376b6ec889c8e189944\\jetified-persianmaterialdatetimepicker-1.2.1\\res\\values-et-rEE\\values-et-rEE.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "282,391,509,590,703,824,940,1033,1126,1222,1310",
+                        "endColumns": "108,117,80,112,120,115,92,92,95,87,100",
+                        "endOffsets": "386,504,585,698,819,935,1028,1121,1217,1305,1406"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,214,332,413,526,647,763,856,949,1045,1133",
+                        "endColumns": "108,117,80,112,120,115,92,92,95,87,100",
+                        "endOffsets": "209,327,408,521,642,758,851,944,1040,1128,1229"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\AndroidStudioProjects\\MyPillReminder\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-eu-rES\\values-eu-rES.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Arpi\\.gradle\\caches\\transforms-2\\files-2.1\\b4194497937e8376b6ec889c8e189944\\jetified-persianmaterialdatetimepicker-1.2.1\\res\\values-eu-rES\\values-eu-rES.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "282,413,528,609,734,855,985,1087,1178,1273,1362",
+                        "endColumns": "130,114,80,124,120,129,101,90,94,88,102",
+                        "endOffsets": "408,523,604,729,850,980,1082,1173,1268,1357,1460"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,236,351,432,557,678,808,910,1001,1096,1185",
+                        "endColumns": "130,114,80,124,120,129,101,90,94,88,102",
+                        "endOffsets": "231,346,427,552,673,803,905,996,1091,1180,1283"
+                    }
+                }
+            ]
+        }
+    ]
+}

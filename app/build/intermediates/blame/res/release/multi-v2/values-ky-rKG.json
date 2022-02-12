@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\AndroidStudioProjects\\MyPillReminder\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-ky-rKG\\values-ky-rKG.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Arpi\\.gradle\\caches\\transforms-2\\files-2.1\\b4194497937e8376b6ec889c8e189944\\jetified-persianmaterialdatetimepicker-1.2.1\\res\\values-ky-rKG\\values-ky-rKG.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "282,382,498,582,690,809,920,1017,1109,1207,1297",
+                        "endColumns": "99,115,83,107,118,110,96,91,97,89,98",
+                        "endOffsets": "377,493,577,685,804,915,1012,1104,1202,1292,1391"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,205,321,405,513,632,743,840,932,1030,1120",
+                        "endColumns": "99,115,83,107,118,110,96,91,97,89,98",
+                        "endOffsets": "200,316,400,508,627,738,835,927,1025,1115,1214"
+                    }
+                }
+            ]
+        }
+    ]
+}

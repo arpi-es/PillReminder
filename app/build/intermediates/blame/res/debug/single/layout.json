@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\AndroidStudioProjects\\MyPillReminder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_home.xml",
+        "source": "D:\\AndroidStudioProjects\\MyPillReminder\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\MyPillReminder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\pill_list_item.xml",
+        "source": "D:\\AndroidStudioProjects\\MyPillReminder\\app\\src\\main\\res\\layout\\pill_list_item.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\MyPillReminder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_add_edit_pill.xml",
+        "source": "D:\\AndroidStudioProjects\\MyPillReminder\\app\\src\\main\\res\\layout\\fragment_add_edit_pill.xml"
+    }
+]

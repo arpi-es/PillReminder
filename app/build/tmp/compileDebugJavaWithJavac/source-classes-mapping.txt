@@ -1,0 +1,46 @@
+com/example/mypillreminder/databinding/FragmentAddEditPillBinding.java
+ com.example.mypillreminder.databinding.FragmentAddEditPillBinding
+com/example/mypillreminder/service/repository/PillDao_Impl.java
+ com.example.mypillreminder.service.repository.PillDao_Impl
+ com.example.mypillreminder.service.repository.PillDao_Impl$1
+ com.example.mypillreminder.service.repository.PillDao_Impl$2
+ com.example.mypillreminder.service.repository.PillDao_Impl$3
+ com.example.mypillreminder.service.repository.PillDao_Impl$4
+ com.example.mypillreminder.service.repository.PillDao_Impl$5
+ com.example.mypillreminder.service.repository.PillDao_Impl$6
+ com.example.mypillreminder.service.repository.PillDao_Impl$7
+ com.example.mypillreminder.service.repository.PillDao_Impl$8
+com/example/mypillreminder/databinding/FragmentHomeBindingImpl.java
+ com.example.mypillreminder.databinding.FragmentHomeBindingImpl
+com/example/mypillreminder/BR.java
+ com.example.mypillreminder.BR
+com/example/mypillreminder/databinding/FragmentAddEditPillBindingImpl.java
+ com.example.mypillreminder.databinding.FragmentAddEditPillBindingImpl
+ com.example.mypillreminder.databinding.FragmentAddEditPillBindingImpl$1
+ com.example.mypillreminder.databinding.FragmentAddEditPillBindingImpl$2
+com/example/mypillreminder/DataBindingInfo.java
+ com.example.mypillreminder.DataBindingInfo
+androidx/databinding/DataBinderMapperImpl.java
+ androidx.databinding.DataBinderMapperImpl
+com/example/mypillreminder/databinding/PillListItemBinding.java
+ com.example.mypillreminder.databinding.PillListItemBinding
+com/example/mypillreminder/BuildConfig.java
+ com.example.mypillreminder.BuildConfig
+androidx/databinding/library/baseAdapters/BR.java
+ androidx.databinding.library.baseAdapters.BR
+com/example/mypillreminder/service/repository/PillDatabase_Impl.java
+ com.example.mypillreminder.service.repository.PillDatabase_Impl
+ com.example.mypillreminder.service.repository.PillDatabase_Impl$1
+com/example/mypillreminder/generated/callback/OnClickListener.java
+ com.example.mypillreminder.generated.callback.OnClickListener
+ com.example.mypillreminder.generated.callback.OnClickListener$Listener
+com/example/mypillreminder/databinding/PillListItemBindingImpl.java
+ com.example.mypillreminder.databinding.PillListItemBindingImpl
+com/example/mypillreminder/DataBinderMapperImpl.java
+ com.example.mypillreminder.DataBinderMapperImpl
+ com.example.mypillreminder.DataBinderMapperImpl$InnerBrLookup
+ com.example.mypillreminder.DataBinderMapperImpl$InnerLayoutIdLookup
+androidx/databinding/DataBindingComponent.java
+ androidx.databinding.DataBindingComponent
+com/example/mypillreminder/databinding/FragmentHomeBinding.java
+ com.example.mypillreminder.databinding.FragmentHomeBinding
